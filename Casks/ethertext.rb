@@ -1,8 +1,8 @@
 cask "ethertext" do
   version "1.12"
-  sha256 "39dcda940e5f0552c811f4f2b585997ac6afc8aa84484caf7bcdd3b3121eb5c2"
+  sha256 "4e08eaf96b3fc9af77184a5fd2e153275cfa377f20d9b3ed894b85e7ce58158c"
 
-  url "https://ethertext.app/downloads/#{version}/Ethertext.dmg"
+  url "https://ethertext.app/downloads/#{version}/Ethertext.zip"
   name "Ethertext"
   desc "AI-powered text transformation and memory for macOS"
   homepage "https://ethertext.app"
