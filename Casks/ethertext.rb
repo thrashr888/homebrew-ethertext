@@ -1,6 +1,6 @@
 cask "ethertext" do
-  version "1.14"
-  sha256 "ca7fb944ae21f89b65b9a7ca0c000bf2ddc5037eb10e763a666d52704bb4d89c"
+  version "1.15"
+  sha256 "67ac34511784d06d230970a18ebb4c2e44943085434ef29b6ac502381e2cb474"
 
   url "https://ethertext.app/downloads/#{version}/Ethertext.dmg"
   name "Ethertext"
