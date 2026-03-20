@@ -1,37 +1,17 @@
-# Homebrew Tap for Ethertext
+# This tap has moved
 
-This is the official Homebrew tap for [Ethertext](https://ethertext.app), an AI-powered text transformation and memory app for macOS.
+This tap has been consolidated into [thrashr888/homebrew-tap](https://github.com/thrashr888/homebrew-tap).
 
-## Installation
-
-```bash
-brew install thrashr888/ethertext/ethertext
-```
-
-Or:
+## Migration
 
 ```bash
-brew tap thrashr888/ethertext
-brew install ethertext
+# Remove this tap
+brew untap thrashr888/ethertext
+
+# Add the new unified tap
+brew tap thrashr888/tap
+
+# Reinstall
+brew install --cask thrashr888/tap/ethertext
 ```
 
-## Updating
-
-```bash
-brew upgrade ethertext
-```
-
-## Uninstalling
-
-```bash
-brew uninstall ethertext
-```
-
-## Requirements
-
-- macOS Ventura (13.0) or later
-
-## Links
-
-- [Website](https://ethertext.app)
-- [Download DMG directly](https://ethertext.app/downloads/latest/Ethertext.dmg)
