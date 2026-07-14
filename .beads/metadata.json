@@ -1,4 +1,7 @@
 {
-  "database": "beads.db",
-  "jsonl_export": "issues.jsonl"
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "homebrew_ethertext",
+  "project_id": "58e0af97-d40d-4bb7-b23a-6f2c85a76d47"
 }
