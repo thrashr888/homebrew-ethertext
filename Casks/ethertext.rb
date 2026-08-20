@@ -7,9 +7,21 @@ cask "ethertext" do
   desc "AI-powered text transformation and memory for macOS"
   homepage "https://ethertext.app"
 
+  # This tap is deprecated. New releases are published to thrashr888/homebrew-tap.
+  deprecate! date: "2026-08-19", because: "has moved to the thrashr888/tap tap"
+
   depends_on macos: :ventura
 
   app "Ethertext.app"
+
+  caveats <<~EOS
+    This tap (thrashr888/ethertext) is deprecated and will not receive new releases.
+    Migrate to the unified tap:
+
+      brew untap thrashr888/ethertext
+      brew tap thrashr888/tap
+      brew install --cask thrashr888/tap/ethertext
+  EOS
 
   zap trash: [
     "~/Library/Application Support/Ethertext",
